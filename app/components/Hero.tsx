@@ -129,7 +129,7 @@ export const AuroraHero = () => {
             transition={{ delay: 0.2 }}
           >
             <span className="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-emerald-500/10 text-emerald-500 dark:bg-emerald-400/10 dark:text-emerald-400 ring-1 ring-inset ring-emerald-500/20 dark:ring-emerald-400/20">
-              Cybersecurity Expert
+              Full Stack Expert Developer
             </span>
           </motion.div>
 
@@ -144,11 +144,11 @@ export const AuroraHero = () => {
                 <div className="p-4 font-mono">
                   <div className="text-4xl sm:text-3xl lg:text-5xl font-bold mb-2">
                     <span className="inline-block font-mono text-5xl text-emerald-50 bg-emerald-900 px-3 py-1 skew-x-[-6deg] border-l-4 border-emerald-400">
-                      Hasan Haider 
+                     Baraka Ngaira 
                     </span>
                   </div>
                   <div className="text-2xl sm:text-3xl lg:text-4xl text-emerald-400 dark:text-emerald-300 font-semibold">
-                    Cybersecurity Expert and Software Engineer
+                    Full Stack Developer
                   </div>
                 </div>
               </div>
@@ -161,9 +161,7 @@ export const AuroraHero = () => {
             transition={{ delay: 0.4 }}
             className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-300"
           >
-            Passionate about digital security with expertise in penetration testing, 
-            vulnerability assessment, and incident response. Currently focusing on 
-            cloud security and zero-trust architecture.
+            Passionate software developer specializing in MERN and PERN stacks, with expertise in low-level programming (C) and database management (SQL & MongoDB)
           </motion.p>
         </div>
       </div>
