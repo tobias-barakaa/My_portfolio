@@ -18,45 +18,46 @@ interface JourneyStep {
 const journeySteps: JourneyStep[] = [
   {
     year: "2020",
-    title: "Security Initiate",
-    description: "Started journey in cybersecurity with focus on fundamentals and basic penetration testing.",
-    icon: Shield,
-    skills: ["Network Security", "Basic Pentesting", "Linux Systems"],
-    achievements: ["CompTIA Security+", "First CVE Discovery"],
+    title: "Coding Enthusiast",
+    description: "Started programming journey with a focus on fundamental concepts and problem-solving.",
+    icon: Code,
+    skills: ["C Programming", "Data Structures", "Algorithms"],
+    achievements: ["First Open-Source Contribution", "Built CLI Tools"],
     level: 1,
     xp: 1500
   },
   {
     year: "2021",
-    title: "Digital Defender",
-    description: "Advanced into active security research and vulnerability assessment.",
-    icon: Lock,
-    skills: ["Vulnerability Assessment", "Malware Analysis", "Web Security"],
-    achievements: ["OSCP Certification", "Bug Bounty Hall of Fame"],
+    title: "Full-Stack Explorer",
+    description: "Dived into web development, mastering MERN and PERN stacks.",
+    icon: Shield,
+    skills: ["React", "Node.js", "PostgreSQL", "MongoDB"],
+    achievements: ["Built Full-Stack Apps", "Freelance Projects"],
     level: 2,
     xp: 3500
   },
   {
     year: "2022",
-    title: "Security Architect",
-    description: "Specialized in secure system design and advanced threat detection.",
+    title: "Software Engineer",
+    description: "Specialized in building scalable and efficient applications.",
     icon: Server,
-    skills: ["Cloud Security", "Threat Modeling", "Incident Response"],
-    achievements: ["AWS Security Cert", "Security Architecture Design"],
+    skills: ["System Design", "REST APIs", "Microservices"],
+    achievements: ["Optimized Database Performance", "Deployed Scalable Applications"],
     level: 3,
     xp: 7500
   },
   {
     year: "2023",
-    title: "Cyber Guardian",
-    description: "Leading security initiatives and conducting advanced research.",
+    title: "Tech Architect",
+    description: "Designing robust systems and leading development projects.",
     icon: Cpu,
-    skills: ["Zero Trust Architecture", "AI Security", "Advanced Red Teaming"],
-    achievements: ["CISSP", "Conference Speaker"],
+    skills: ["Distributed Systems", "Cloud Architecture", "DevOps"],
+    achievements: ["Led Engineering Team", "Speaker at Tech Conferences"],
     level: 4,
     xp: 12500
   }
-]
+];
+
 
 const ProgressBar = ({ progress }: { progress: number }) => (
   <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
@@ -199,7 +200,7 @@ export const SecurityJourney = () => {
             transition={{ delay: 0.1 }}
             className="mt-4 text-4xl font-bold text-gray-900 dark:text-white"
           >
-            Security Evolution Timeline
+            Milestones in Software Engineering
           </motion.h2>
           
           <motion.p
@@ -209,7 +210,7 @@ export const SecurityJourney = () => {
             transition={{ delay: 0.2 }}
             className="mt-4 text-lg text-gray-600 dark:text-gray-400"
           >
-            I'm a student, a cybersecurity enthusiast, and a software engineer, passionate about exploring the depths of cybersecurity and advancing my skills in this ever-evolving field.
+            I'm a software developer specializing in MERN and PERN stacks, with expertise in databases (SQL & MongoDB) and low-level languages like C. Passionate about building scalable applications and advancing my skills in software engineering.
           </motion.p>
         </div>
 
