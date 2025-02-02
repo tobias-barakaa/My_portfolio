@@ -76,6 +76,7 @@ const SocialLinks = () => (
     ))}
   </div>
 )
+Baraka Ngaira
 
 export const AuroraHero = () => {
   const [showContactForm, setShowContactForm] = useState(false)
@@ -112,7 +113,7 @@ export const AuroraHero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-blue-600 to-violet-600 dark:from-emerald-400 dark:via-blue-400 dark:to-violet-400 animate-spin-slow blur-md" />
               <div className="relative w-full h-full transform hover:scale-105 transition-transform duration-300">
                 <img
-                  src="/placeholder.jpeg"
+                  src="/yeahThatsMe.png"
                   alt="John Doe"
                   className="w-full h-full object-cover shadow-2xl border-4 border-white dark:border-gray-800"
                 />
