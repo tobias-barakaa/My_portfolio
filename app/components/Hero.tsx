@@ -76,7 +76,7 @@ const SocialLinks = () => (
     ))}
   </div>
 )
-Baraka Ngaira
+
 
 export const AuroraHero = () => {
   const [showContactForm, setShowContactForm] = useState(false)
