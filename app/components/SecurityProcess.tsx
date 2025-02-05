@@ -112,7 +112,7 @@ const SecurityProcess = ({ onContactClick }: SecurityProcessProps) => {
             className="inline-block"
           >
             <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-emerald-500/10 to-blue-500/10 text-emerald-500 dark:text-emerald-400 ring-1 ring-inset ring-emerald-500/20 mb-4">
-              Cybersecurity Process
+              Full-Stack Process
             </span>
           </motion.div>
           <motion.h2 
@@ -121,7 +121,7 @@ const SecurityProcess = ({ onContactClick }: SecurityProcessProps) => {
             transition={{ delay: 0.2 }}
             className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4"
           >
-            Enterprise Security Lifecycle
+            Enterprise Software Development Lifecycle
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -129,7 +129,7 @@ const SecurityProcess = ({ onContactClick }: SecurityProcessProps) => {
             transition={{ delay: 0.3 }}
             className="max-w-2xl mx-auto text-base md:text-lg text-gray-600 dark:text-gray-400"
           >
-            Comprehensive cybersecurity solutions protecting your digital assets 24/7
+            Comprehensive software solutions 
           </motion.p>
         </div>
         

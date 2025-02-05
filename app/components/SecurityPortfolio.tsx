@@ -45,7 +45,7 @@ export function SecurityPortfolio() {
             transition={{ duration: 0.5 }}
             className="text-3xl font-extrabold text-gray-900 dark:text-gray-100 sm:text-4xl"
           >
-            Security Projects Portfolio
+            Portfolio
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -53,7 +53,7 @@ export function SecurityPortfolio() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400"
           >
-            Showcasing my expertise in cybersecurity through real-world projects
+            Showcasing my expertise in software Engineering through real-world projects
           </motion.p>
         </div>
 

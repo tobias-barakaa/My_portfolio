@@ -145,7 +145,7 @@ export const SecurityMetrics = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl font-bold text-gray-900 dark:text-white mb-4"
           >
-            Security Impact Metrics
+            Impact Metrics
           </motion.h2>
           
           <motion.p
