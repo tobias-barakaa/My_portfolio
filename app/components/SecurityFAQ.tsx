@@ -120,7 +120,7 @@ export const SecurityFAQ = () => {
             transition={{ delay: 0.1 }}
             className="text-4xl font-bold text-gray-900 dark:text-white mb-4"
           >
-            Common Security Questions
+            Common Web Developer Questions
           </motion.h2>
         </div>
 
