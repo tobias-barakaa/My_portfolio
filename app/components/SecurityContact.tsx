@@ -38,14 +38,14 @@ export const SecurityContact = ({ onClose }: SecurityContactProps) => {
     {
       id: "name",
       label: "Identify yourself",
-      placeholder: "John Doe",
+      placeholder: "Baraka Ngaira",
       icon: Shield,
       command: "init_contact --user"
     },
     {
       id: "email",
       label: "Secure communication channel",
-      placeholder: "john@example.com",
+      placeholder: "tobiasbarakan@gmail.com",
       icon: Lock,
       command: "establish_channel --email"
     },
