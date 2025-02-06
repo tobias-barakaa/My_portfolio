@@ -51,15 +51,15 @@ const SecurityTerminal = () => {
     </div>
   )
 }
+https://www.linkedin.com/in/tobias-ngaira/
 
 const SocialLinks = () => (
   <div className="fixed bottom-8 right-8 z-50 flex flex-col items-center space-y-4">
     {[
-      { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-      { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
+      { icon: Github, href: "https://github.com/tobias-barakaa", label: "GitHub" },
+      { icon: Linkedin, href: "https://linkedin.com/in/tobias-ngaira", label: "LinkedIn" },
       { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
-      { icon: Instagram, href: "https://instagram.com/yourusername", label: "Instagram" },
-      { icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter" },
+      { icon: Twitter, href: "https://x.com/Ngairatobbi", label: "Twitter" },
     ].map((social) => (
       <motion.a
         key={social.label}
