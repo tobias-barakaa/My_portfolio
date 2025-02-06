@@ -62,7 +62,7 @@ const WelcomePage = () => {
               <div className="relative w-full h-full transform hover:scale-105 transition-transform duration-300">
                 <img
                   src="/hassan.jpeg"
-                  alt=Baraka Ngaira"
+                  alt="Baraka Ngaira"
                   className="w-full h-full object-cover rounded-full shadow-2xl border-4 border-white dark:border-gray-800"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 via-blue-500/20 to-violet-500/20 dark:from-emerald-400/20 dark:via-blue-400/20 dark:to-violet-400/20 mix-blend-overlay rounded-full" />
