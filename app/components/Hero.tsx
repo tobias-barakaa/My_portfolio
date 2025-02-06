@@ -51,7 +51,6 @@ const SecurityTerminal = () => {
     </div>
   )
 }
-https://www.linkedin.com/in/tobias-ngaira/
 
 const SocialLinks = () => (
   <div className="fixed bottom-8 right-8 z-50 flex flex-col items-center space-y-4">
