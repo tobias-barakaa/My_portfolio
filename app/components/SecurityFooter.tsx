@@ -90,7 +90,7 @@ export const SecurityFooter = () => {
             >
               <Shield className="w-6 h-6 text-emerald-500" />
               <span className="text-xl font-bold bg-gradient-to-r from-emerald-500 via-blue-500 to-violet-500 text-transparent bg-clip-text">
-                SecurePort
+                ...
               </span>
             </motion.div>
             
@@ -160,7 +160,7 @@ export const SecurityFooter = () => {
         <div className="mt-12 pt-8 border-t border-gray-200/10 dark:border-gray-700/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {new Date().getFullYear()} SecurePort. All rights reserved.
+              © {new Date().getFullYear()} Software Engineer(Baraka Ngaira). All rights reserved.
             </p>
             <div className="flex items-center space-x-4">
               {[

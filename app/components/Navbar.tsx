@@ -82,7 +82,7 @@ const Navbar = () => {
               hover:bg-white/50 dark:hover:bg-gray-900/50"
           >
             <Shield className="w-4 h-4 text-emerald-500" />
-            <span className="text-sm font-medium text-gray-900 dark:text-white">SecurePort</span>
+            <span className="text-sm font-medium text-gray-900 dark:text-white">Baraka Ngaira</span>
           </motion.button>
 
           {/* Mobile Home Icon */}
